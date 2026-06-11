@@ -4,8 +4,11 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'LifeOS Assistant | Dashboard',
   description: 'Painel completo com Carinne, produtividade, finanças, estudos e eventos.',
+  manifest: '/manifest.json',
   icons: {
     icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
   },
 }
 
